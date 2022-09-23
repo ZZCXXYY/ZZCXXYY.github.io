@@ -1,7 +1,7 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title>ZZCXXYY.github.io</title>
+  <title></title>
  </head>
  <body>
   <script type="text/javascript">
