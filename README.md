@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>九九乘法表</title>
  </head>
  <body>
   <script type="text/javascript">
