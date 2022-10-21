@@ -2,14 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link type="text/css" rel="stylesheet" href="css/css.css" />
+<link type="text/css" rel="stylesheet" href="./css.css" />
 <title>北极熊</title>
 <script src="js/jquery-2.0.3.min.js"></script>
 <script src="js/scroll.js"></script>
 </head>
 <body>
 <div class="wrapin">
-  <div class="banner"> <img src="images/qrcode_zzcxxyy.github.io.jpg"/> </div>
+  <div class="banner"> <img src="./bjx.jpg"/> </div>
   <div class="header">
     <ul class="nav">
       <li><a href="index.html">主页</a></li>
@@ -29,7 +29,7 @@
 北极熊的视力和听力与人类相当，但它们的嗅觉极为灵敏，是犬类的7倍；奔跑时最快速度可达60km/h，是世界百米冠军的1.5倍。由于全球气温的升高，北极的浮冰逐渐开始融化，北极熊昔日的家园已遭到一定程度的破坏，在不久的未来很可能灭绝，需要人类的保护。<br>
 2020年7月20日，《自然》杂志（Nature）发布的研究显示，随着气候变化加剧，北极熊的生存环境遭到极大破坏，这一物种或将于2100年灭绝。</p>
       </div>
-            <div class="pic"> <img src="images/pic_01.jpg"/> </div>
+            <div class="pic"> <img src="./zzcxxyy.jpg"/> </div>
       <div class="clear"></div>
     </div>
     
@@ -43,39 +43,39 @@
       <div class="imglist scrollleft" >
       <ul class="players_box">
         <li>
-          <div class="pic"><img src="images/pic_01.jpg"/> </div>
+          <div class="pic"><img src="./bjx2.jpg"/> </div>
           <p>北极熊图片</p>
         </li>
         <li>
-          <div class="pic"><img src="images/pic_02.jpg"/> </div>
+          <div class="pic"><img src="./bjx3.jpg"/> </div>
           <p>北极熊图片</p>
         </li>
         <li>
-          <div class="pic"><img src="images/pic_03.jpg"/> </div>
+          <div class="pic"><img src="./bjx4.jpg"/> </div>
           <p>北极熊图片</p>
         </li>
         <li>
-          <div class="pic"><img src="images/pic_04.jpg"/> </div>
+          <div class="pic"><img src="./bjx5.jpg"/> </div>
           <p>北极熊图片</p>
         </li>
         <li>
-          <div class="pic"><img src="images/pic_05.jpg"/> </div>
+          <div class="pic"><img src="./zzcxxyy.jpg"/> </div>
           <p>北极熊图片</p>
         </li>
         <li>
-          <div class="pic"><img src="images/pic_06.jpg"/> </div>
+          <div class="pic"><img src="./zzcxxyy.jpg"/> </div>
           <p>北极熊图片</p>
         </li>
         <li>
-          <div class="pic"><img src="images/pic_07.jpg"/> </div>
+          <div class="pic"><img src="./zzcxxyy.jpg"/> </div>
           <p>北极熊图片</p>
         </li>
         <li>
-          <div class="pic"><img src="images/pic_08.jpg"/> </div>
-          <p>北极熊图片</p>
+          <div class="pic"><img src="./bjx9.jpg"/> </div>
+          <p>我的图片</p>
         </li>
         <li>
-          <div class="pic"><img src="images/pic_09.jpg"/> </div>
+          <div class="pic"><img src="./zzcxxyy.jpg"/> </div>
           <p>北极熊图片</p>
         </li>
       </ul>
