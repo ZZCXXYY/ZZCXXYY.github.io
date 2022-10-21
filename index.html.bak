@@ -1,18 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
- <head>
-  <meta charset="UTF-8">
-  <title></title>
- </head>
- <body>
-  <script type="text/javascript">
-  document.write("九九乘法表"+"<br/>");
-  for(var i=1;i<10;i++){
-	  for(var j=1;j<=i;j++){
-		  document.write(j+"x"+i+"="+(j*i)+"&nbsp"+"&nbsp");
-		  }
-		  document.write("<br/>");
-	}
-	</script>
- </body>
+<html>
+<head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="css/css.css" />
+<title>北极熊</title>
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/scroll.js"></script>
+</head>
+<body>
+<div class="wrapin">
+  <div class="banner"> <img src="images/qrcode_zzcxxyy.github.io.jpg"/> </div>
+  <div class="header">
+    <ul class="nav">
+      <li><a href="index.html">主页</a></li>
+      <li><a href="life.html">生活习性</a></li>
+      <li><a href="population.html">种群现状</a></li>
+      <li><a href="features.html">外形特征</a></li>
+      <li><a href="reproduction.html">生长繁殖</a></li>
+      <li><a href="liuyan.html">留言 </a></li>
+    </ul>
+  </div>
+  <div class="con">
+    <div class="con_t">
+      <div class="text">
+      <h3>北极熊 （世界上最大的陆地食肉动物）</h3>
+        <p>
+         北极熊（拉丁学名：Ursus maritimus），是熊科熊属的一种动物，是世界上最大的陆地食肉动物，又名白熊。皮肤为黑色，由于毛发透明故外观上通常为白色，也有黄色等颜色，体型巨大，凶猛。<br>
+北极熊的视力和听力与人类相当，但它们的嗅觉极为灵敏，是犬类的7倍；奔跑时最快速度可达60km/h，是世界百米冠军的1.5倍。由于全球气温的升高，北极的浮冰逐渐开始融化，北极熊昔日的家园已遭到一定程度的破坏，在不久的未来很可能灭绝，需要人类的保护。<br>
+2020年7月20日，《自然》杂志（Nature）发布的研究显示，随着气候变化加剧，北极熊的生存环境遭到极大破坏，这一物种或将于2100年灭绝。</p>
+      </div>
+            <div class="pic"> <img src="images/pic_01.jpg"/> </div>
+      <div class="clear"></div>
+    </div>
+    
+    <div class="rules">
+      <div class="title">栖息环境</div>
+      <P>北极熊是一种能在恶劣的环境下生存的动物，其活动范围主要在北冰洋附近有浮冰的海域。</P>
+    </div>
+    
+    <div class="players">
+      <div class="title">北极熊图片</div>
+      <div class="imglist scrollleft" >
+      <ul class="players_box">
+        <li>
+          <div class="pic"><img src="images/pic_01.jpg"/> </div>
+          <p>北极熊图片</p>
+        </li>
+        <li>
+          <div class="pic"><img src="images/pic_02.jpg"/> </div>
+          <p>北极熊图片</p>
+        </li>
+        <li>
+          <div class="pic"><img src="images/pic_03.jpg"/> </div>
+          <p>北极熊图片</p>
+        </li>
+        <li>
+          <div class="pic"><img src="images/pic_04.jpg"/> </div>
+          <p>北极熊图片</p>
+        </li>
+        <li>
+          <div class="pic"><img src="images/pic_05.jpg"/> </div>
+          <p>北极熊图片</p>
+        </li>
+        <li>
+          <div class="pic"><img src="images/pic_06.jpg"/> </div>
+          <p>北极熊图片</p>
+        </li>
+        <li>
+          <div class="pic"><img src="images/pic_07.jpg"/> </div>
+          <p>北极熊图片</p>
+        </li>
+        <li>
+          <div class="pic"><img src="images/pic_08.jpg"/> </div>
+          <p>北极熊图片</p>
+        </li>
+        <li>
+          <div class="pic"><img src="images/pic_09.jpg"/> </div>
+          <p>北极熊图片</p>
+        </li>
+      </ul>
+      <div class="clear"></div>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+</body>
+<script type="text/javascript">$(document).ready(function(){
+
+  $(".scrollleft").imgscroll({
+    speed: 40,    //图片滚动速度
+    amount: 0,    //图片滚动过渡时间
+    width: 1,     //图片滚动步数
+    dir: "left"   // "left" 或 "up" 向左或向上滚动
+  });
+  
+
+  
+});</script>
 </html>
